@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    background-color: #1f2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+ img[alt="bartender"] {
+    flex: 1;
+    width: 320px;
+    height: 180px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    display:flex;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    justify-content: end;
+}
+
+.Main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.secondary-text{
+    font-size: 18px;
+
+}
+.button{
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 18px;
+    background:#3882f6;
+    border: none;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    flex: 1;
+    
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+  
+}
+
