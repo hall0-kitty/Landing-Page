@@ -1,6 +1,5 @@
 body{
     display: flex;
-    background-color: #1f2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
     color: #e5e7eb;
@@ -9,15 +8,24 @@ body{
 
 .header{
     display: flex;
-    flex-direction: column;
-    font-size: 24px;
-    color: #f9faf8;
 
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    font-size: 24px;
+    background-color: #1f2937;
+    color: #f9faf8;
+   justify-content: space-around;
 }
- img[alt="bartender"] {
-    flex: 1;
-    width: 320px;
-    height: 180px;
+
+.logo{
+    display: flex;
+    align-content: center;
+}
+
+.right-links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 ul{
@@ -29,24 +37,47 @@ a {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
-    justify-content: end;
+    align-content: center;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    
+
+}
+
+ img[alt="bartender"] {
+    flex: 1;
+    width: 320px;
+    height: 180px;
+   
 }
 
 .Main-text{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    width: 300px;
+    flex-wrap: wrap;
 }
 .secondary-text{
     font-size: 18px;
-
+    flex-wrap: wrap;
+    width: 300px;
 }
+
+
+
 .button{
+    display: flex;
     font-size: 18px;
     border-radius: 8px;
-    padding: 8px 18px;
+    padding: 4px;
+    margin: auto;
     background:#3882f6;
     border: none;
+    justify-content: start;
 
 }
 
@@ -54,7 +85,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #f9faf8;
-    flex: 1;
+    
     
 }
 
@@ -66,7 +97,11 @@ a {
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #1f2937;
   
+}
+
+.footer {
+    color: #e5e7eb;
 }
 
